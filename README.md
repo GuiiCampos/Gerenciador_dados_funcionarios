@@ -20,6 +20,7 @@ Este projeto é uma API RESTful para gerenciar informações de funcionários da
 1. Instale o PostgreSQL (se ainda não estiver instalado).
 2. Crie um banco de dados chamado `Funcionarios`:
 3. Execute o seguinte comando SQL:
+   
      CREATE TABLE dados (
       id SERIAL PRIMARY KEY,
       nome VARCHAR(100) NOT NULL,
