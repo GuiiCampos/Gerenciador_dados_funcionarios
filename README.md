@@ -8,13 +8,19 @@ Este projeto é uma API RESTful para gerenciar informações de funcionários da
 - Java 11 ou superior
 - Maven 3.x
 - IDE de sua preferência (IntelliJ, Eclipse, etc.)
-- PostgreSQL(Ou algum banco de dados de sua preferencia)
+- PostgreSQL(ou outro banco de dados de sua preferência)
 
 ### Configuração
-1. Clone o repositório: `git clone https://github.com/seu-usuario/TrabalhoJavaA.git`
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/TrabalhoJavaA.git
 2. Navegue até o diretório do projeto
-3. Configure as variáveis de ambiente ou propriedades do banco de dados, se necessário.
-4. Importe o projeto na sua IDE como um projeto Maven existente.
+3. Configure as variáveis de ambiente ou propriedades do banco de dados no arquivo `application.properties`:
+   spring.datasource.url=jdbc:postgresql://localhost:5432/Funcionarios
+   spring.datasource.username=usuario
+   spring.datasource.password=senha
+   spring.jpa.hibernate.ddl-auto=update
+5. Importe o projeto na sua IDE como um projeto Maven existente.
 
 #### Banco de Dados
 1. Instale o PostgreSQL (se ainda não estiver instalado).
