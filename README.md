@@ -11,8 +11,8 @@ Este projeto é uma API RESTful para gerenciar informações de funcionários da
 - PostgreSQL(Ou algum banco de dados de sua preferencia)
 
 ### Configuração
-1. Clone o repositório: `git clone https://github.com/seu-usuario/seu-projeto.git`
-2. Navegue até o diretório do projeto: `cd seu-projeto`
+1. Clone o repositório: `git clone https://github.com/seu-usuario/TrabalhoJavaA.git`
+2. Navegue até o diretório do projeto
 3. Configure as variáveis de ambiente ou propriedades do banco de dados, se necessário.
 4. Importe o projeto na sua IDE como um projeto Maven existente.
 
