@@ -8,6 +8,7 @@ Este projeto é uma API RESTful para gerenciar informações de funcionários da
 - Java 11 ou superior
 - Maven 3.x
 - IDE de sua preferência (IntelliJ, Eclipse, etc.)
+- PostgreSQL(Ou algum banco de dados de sua preferencia)
 
 ### Configuração
 1. Clone o repositório: `git clone https://github.com/seu-usuario/seu-projeto.git`
@@ -15,27 +16,24 @@ Este projeto é uma API RESTful para gerenciar informações de funcionários da
 3. Configure as variáveis de ambiente ou propriedades do banco de dados, se necessário.
 4. Importe o projeto na sua IDE como um projeto Maven existente.
 
-## Configuração banco de dados
-1. Criar um banco de dados para que a Api tenha aonde acessar
-2. Inserir o comando Sql abaixo para criar a tabela
-
---Criação da tabela de funcionários
-
-  CREATE TABLE dados (
-    id SERIAL PRIMARY KEY,
-    nome VARCHAR(100) NOT NULL,
-    alergias VARCHAR(255),
-    problemas_medicos VARCHAR(255),
-    telefone VARCHAR(20) NOT NULL,
-    email VARCHAR(100) NOT NULL
-  );
-
+#### Banco de Dados
+1. Instale o PostgreSQL (se ainda não estiver instalado).
+2. Crie um banco de dados chamado `Funcionarios`:
+3. Execute o seguinte comando SQL:
+     CREATE TABLE dados (
+      id SERIAL PRIMARY KEY,
+      nome VARCHAR(100) NOT NULL,
+      alergias VARCHAR(255),
+      problemas_medicos VARCHAR(255),
+      telefone VARCHAR(20) NOT NULL,
+      email VARCHAR(100) NOT NULL
+     );
+   
 -- Exemplo de inserção de dados
-INSERT INTO dados (nome, alergias, problemasMedicos, telefone, email)
+INSERT INTO dados (nome, alergias, problemas_medicos, telefone, email)
 VALUES
     ('Fulano de Tal', 'Pólen', 'Nenhum', '(11) 99999-9999', 'fulano@example.com'),
     ('Ciclano da Silva', NULL, 'Pressão alta', '(21) 98888-8888', 'ciclano@example.com');
-3. Vá até pro resouces > application.properties e coloque seu nome e sua senha
 
 ## Funcionalidades
 
