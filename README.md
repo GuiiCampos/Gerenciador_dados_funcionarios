@@ -35,6 +35,7 @@ INSERT INTO dados (nome, alergias, problemasMedicos, telefone, email)
 VALUES
     ('Fulano de Tal', 'Pólen', 'Nenhum', '(11) 99999-9999', 'fulano@example.com'),
     ('Ciclano da Silva', NULL, 'Pressão alta', '(21) 98888-8888', 'ciclano@example.com');
+3. Vá até pro resouces > application.properties e coloque seu nome e sua senha
 
 ## Funcionalidades
 
