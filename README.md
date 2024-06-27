@@ -14,6 +14,7 @@ Este projeto é uma API RESTful para gerenciar informações de funcionários da
 1. Clone o repositório:
    ```bash
    git clone https://github.com/seu-usuario/TrabalhoJavaA.git
+ou instale o arquivo
 2. Navegue até o diretório do projeto
 3. Configure as variáveis de ambiente ou propriedades do banco de dados no arquivo `application.properties`:
    spring.datasource.url=jdbc:postgresql://localhost:5432/Funcionarios
