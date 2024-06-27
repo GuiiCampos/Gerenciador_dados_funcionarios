@@ -52,3 +52,16 @@ Este projeto é uma API RESTful para gerenciar informações de funcionários da
        email VARCHAR(100) NOT NULL
       );
       ```
+### Usando um Banco de Dados Diferente
+   Se você estiver usando um banco de dados diferente do PostgreSQL, siga estas etapas adicionais:
+
+   1. Adicionar a dependência do banco de dados ao `pom.xml`:
+      Para MySQL, por exemplo:
+      ```
+      <dependency>
+       <groupId>mysql</groupId>
+       <artifactId>mysql-connector-java</artifactId>
+       <scope>runtime</scope>
+      </dependency>
+      ```
+      
