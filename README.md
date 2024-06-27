@@ -24,7 +24,7 @@ Este projeto é uma API RESTful para gerenciar informações de funcionários da
    spring.datasource.password=senha
    spring.jpa.hibernate.ddl-auto=update
    ```
-Nota: Se você estiver utilizando um banco de dados diferente, ajuste as propriedades conforme necessário. Por exemplo, para MySQL:
+   Nota: Se você estiver utilizando um banco de dados diferente, ajuste as propriedades conforme necessário. Por exemplo, para MySQL:
    ```
    spring.datasource.url=jdbc:mysql://localhost:3306/Funcionarios
    spring.datasource.username=usuario
