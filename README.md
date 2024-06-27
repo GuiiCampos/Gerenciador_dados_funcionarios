@@ -44,11 +44,11 @@ Este projeto é uma API RESTful para gerenciar informações de funcionários da
    3. Execute o script SQL create_tables.sql para criar as tabelas necessárias e inserir dados de exemplo:
       ```
       CREATE TABLE dados (
-    id SERIAL PRIMARY KEY,
-    nome VARCHAR(100) NOT NULL,
-    alergias VARCHAR(255),
-    problemas_medicos VARCHAR(255),
-    telefone VARCHAR(20) NOT NULL,
-    email VARCHAR(100) NOT NULL
-);
-```
+       id SERIAL PRIMARY KEY,
+       nome VARCHAR(100) NOT NULL,
+       alergias VARCHAR(255),
+       problemas_medicos VARCHAR(255),
+       telefone VARCHAR(20) NOT NULL,
+       email VARCHAR(100) NOT NULL
+      );
+      ```
