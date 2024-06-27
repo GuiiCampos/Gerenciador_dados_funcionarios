@@ -42,7 +42,7 @@ Este projeto é uma API RESTful para gerenciar informações de funcionários da
       ```
       CREATE DATABASE Funcionarios;
       ```
-   3. Execute o script SQL create_tables.sql para criar as tabelas necessárias e inserir dados de exemplo:
+   3. Execute o script SQL create_tables.sql para criar as tabelas necessárias:
       ```
       CREATE TABLE dados (
        id SERIAL PRIMARY KEY,
