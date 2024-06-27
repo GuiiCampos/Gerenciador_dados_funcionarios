@@ -19,8 +19,8 @@ Este projeto é uma API RESTful para gerenciar informações de funcionários da
 
 2. Configure as variáveis de ambiente ou propriedades do banco de dados no arquivo application.properties:
    ```
-      spring.datasource.url=jdbc:postgresql://localhost:5432/Funcionarios
-      spring.datasource.username=usuario
-      spring.datasource.password=senha
-      spring.jpa.hibernate.ddl-auto=update
-```
+   spring.datasource.url=jdbc:postgresql://localhost:5432/Funcionarios
+   spring.datasource.username=usuario
+   spring.datasource.password=senha
+   spring.jpa.hibernate.ddl-auto=update
+   ```
