@@ -77,9 +77,9 @@ Este projeto é uma API RESTful para gerenciar informações de funcionários da
 * Hibernate
 * PostgreSQL (ou outro banco de dados)
 ### Estrutura de Diretórios
-* src/main/java/com/funcionariosdata/projet/controller: Controladores REST
-* src/main/java/com/funcionariosdata/projet/model: Modelos de dados (entidades)
-* src/main/java/com/funcionariosdata/projet/service: Lógica de negócios (serviços)
-* src/main/java/com/funcionariosdata/projet/repository: Repositórios de dados (interfaces JPA)
+* `src/main/java/com/funcionariosdata/projet/controller`: Controladores REST
+* `src/main/java/com/funcionariosdata/projet/model`: Modelos de dados (entidades)
+* `src/main/java/com/funcionariosdata/projet/service`: Lógica de negócios (serviços)
+* `src/main/java/com/funcionariosdata/projet/repository`: Repositórios de dados (interfaces JPA)
 
       
