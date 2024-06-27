@@ -34,8 +34,8 @@ Este projeto é uma API RESTful para gerenciar informações de funcionários da
    ```
 3. Importe o projeto na sua IDE como um projeto Maven existente.
 
-   Banco de Dados
-   Instale o PostgreSQL (se ainda não estiver instalado).
+### Banco de Dados
+   1. Instale o PostgreSQL (se ainda não estiver instalado).
 
-   Crie um banco de dados chamado Funcionarios:
+   2. Crie um banco de dados chamado `Funcionarios`:
       createdb Funcionarios
