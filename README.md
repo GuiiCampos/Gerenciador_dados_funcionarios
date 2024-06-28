@@ -9,6 +9,7 @@ Este projeto é uma API RESTful para gerenciar informações de funcionários da
 - Maven 3.x
 - IDE de sua preferência (IntelliJ, Eclipse, etc.)
 - PostgreSQL (ou outro banco de dados de sua preferência)
+- Postman(ou algum software para fazer requisições )
 
 ### Configuração
 
